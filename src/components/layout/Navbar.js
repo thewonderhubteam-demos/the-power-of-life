@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Button from '../ui/Button';
+import Button from '../ui/button';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);

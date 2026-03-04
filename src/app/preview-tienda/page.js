@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Card from '@/components/ui/Card';
+import Card from '@/components/ui/card';
 
 const PREVIEW_PRODUCTS = [
   { id: 1, name: 'Suscripción Premium', price: '$49.00', image: '/img/prod1.jpg' },
