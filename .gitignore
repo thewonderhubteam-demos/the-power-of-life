@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / cache
+dist/
+build/
+.cache/
+coverage/
+
+# System files
+Thumbs.db
