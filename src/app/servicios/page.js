@@ -33,8 +33,8 @@ export default function Servicios() {
     <main className="pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <h1 className="text-5xl font-extrabold mb-6 tracking-tight">Soluciones Integrales</h1>
-          <p className="text-muted max-w-2xl mx-auto">Desde desarrollo web y móvil hasta consultoría en la nube y optimización de conversión.</p>
+          <h1 className="text-5xl font-extrabold mb-6 tracking-tight">Servicios Artísticos y Espectáculos</h1>
+          <p className="text-muted max-w-2xl mx-auto">Coreografías personalizadas, shows en vivo, talleres y dirección artística para eventos, bodas y festivales — llevamos la energía del baile a tu público con propuestas adaptadas a tu espacio y objetivo.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
