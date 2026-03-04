@@ -6,24 +6,24 @@ export default function Servicios() {
     {
       name: "Essential Show",
       price: "Consulte",
-      desc: "Ideal para recepciones y eventos privados pequeños.",
-      features: ["4 Bailarines", "15 min de Performance", "Vestuario Temático", "Música Editada"],
+      desc: "Performance dinámico y cercano, perfecto para recepciones, aniversarios y eventos íntimos.",
+      features: ["4 Bailarines", "10–20 min de espectáculo", "Vestuario temático", "Selección musical personalizada"],
       cta: "Lo quiero",
       highlight: false
     },
     {
       name: "Power Experience",
       price: "Más Popular",
-      desc: "El equilibrio perfecto entre show y participación del público.",
-      features: ["6 Bailarines", "30 min de Show", "Interacción/Animación", "Efectos Visuales Básicos", "Meet & Greet"],
+      desc: "Show de formato medio pensado para energizar al público: coreografías potentes e interacción directa.",
+      features: ["6 Bailarines", "25–35 min de show", "Momentos participativos", "Iluminación y visuales básicos", "Encuentro con artistas"],
       cta: "Reservar Ahora",
       highlight: true
     },
     {
       name: "Elite Production",
       price: "Full Pack",
-      desc: "Producción cinematográfica para eventos corporativos y bodas de lujo.",
-      features: ["10+ Bailarines", "Shows Segmentados", "Coreografía Personalizada", "Dirección Artística", "Maquillaje Pro"],
+      desc: "Producción a medida para grandes eventos: dirección artística, montaje escénico y experiencia inmersiva.",
+      features: ["10+ Bailarines", "Espectáculo modular (30–60 min)", "Coreografía y dirección artística", "Vestuario y maquillaje profesional", "Coordinación técnica completa"],
       cta: "Cotizar VIP",
       highlight: false
     }
