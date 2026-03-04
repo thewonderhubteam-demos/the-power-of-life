@@ -1,31 +1,13 @@
-import Button from '@/components/ui/button';
 import Card from '@/components/ui/card';
 import Link from 'next/link';
+import Hero from '@/components/sections/Hero';
+import PortfolioGrid from '@/components/ui/PortfolioGrid';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-full bg-accent/10 blur-[120px] rounded-full -z-10"></div>
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface2 border border-border mb-8 animate-bounce">
-            <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
-            <span className="text-xs font-bold text-accent tracking-widest uppercase">Agenda 2026 Abierta</span>
-          </div>
-          <h1 className="text-5xl md:text-8xl font-extrabold mb-6 tracking-tighter leading-tight">
-            Shows de baile que <br />
-            <span className="gradient-text">prenden</span> cualquier evento
-          </h1>
-          <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto mb-10">
-            Presentaciones, animación y formación para todas las edades. Elevamos el estándar artístico de tus celebraciones.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button href="/contacto" variant="primary">Cotizar show</Button>
-            <Button href="/servicios" variant="secondary">Ver clases</Button>
-          </div>
-        </div>
-      </section>
-
+      <Hero />
+      <PortfolioGrid />
       <section className="py-20 px-6 bg-surface2">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
